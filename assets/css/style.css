@@ -1,0 +1,236 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+.nav-list li {
+  margin-left: 2rem;
+}
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav-list a.active,
+.nav-list a:hover {
+  color: #ff9800;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 1rem 2rem 1rem;
+  background: #ff9800;
+  color: #fff;
+}
+.sobre {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+.membros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.membro {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 1rem;
+  text-align: center;
+  width: 180px;
+}
+.membro img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+.skills {
+  background: #fff;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+}
+.skills-list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.skills-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+.skills-list img {
+  width: 32px;
+  height: 32px;
+}
+.projetos {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+.cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 1rem;
+  width: 220px;
+  text-align: center;
+}
+.card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #ff9800;
+  text-decoration: none;
+  font-weight: 500;
+}
+.contato {
+  background: #fff;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+form label {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-weight: 500;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+form button {
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+.redes {
+  margin-top: 1rem;
+  text-align: center;
+}
+.redes a {
+  margin: 0 0.5rem;
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+}
+#voltar-topo {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 2rem;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 100;
+}
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+/* Responsividade */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #222;
+    width: 200px;
+    display: none;
+  }
+  .nav-list.active {
+    display: flex;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .membros {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  .hero {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+  .membro, .card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puggy | Portfólio</title>
+  <meta name="description" content="Landing page da Puggy: conheça os integrantes, projetos e habilidades.">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Puggy</div>
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+      <ul class="nav-list">
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="hero" class="hero">
+      <h1>Puggy</h1>
+      <p>Superando limites, conquistando resultados.</p>
+    </section>
+    <section id="sobre" class="sobre">
+      <h2>Sobre a Equipe</h2>
+      <div class="membros">
+        <div class="membro">
+          <img src="assets/img/pedroarthur.png" alt="Foto de Pedro Arthur">
+          <h3>Pedro Arthur</h3>
+          <p>Desenvolvedor</p>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <h2>Skills & Stacks</h2>
+      <ul class="skills-list">
+        <li><img src="assets/img/html.png" alt="HTML5">HTML5</li>
+        <li><img src="assets/img/css.png" alt="CSS3">CSS3</li>
+        <li><img src="assets/img/js.png" alt="JavaScript">JavaScript</li>
+      </ul>
+    </section>
+    <section id="projetos" class="projetos">
+      <h2>Projetos</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>E-commerce</h3>
+          <p>Projeto de loja virtual desenvolvido com HTML, CSS e JavaScript.</p>
+          <a href="https://github.com/pedroarthur/ecommerce" target="_blank">Ver no GitHub</a>
+        </div>
+      </div>
+    </section>
+    <section id="contato" class="contato">
+      <h2>Contato</h2>
+      <form id="form-contato">
+        <label for="nome">Nome*</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensagem">Mensagem*</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="redes">
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">GitHub</a>
+      </div>
+    </section>
+  </main>
+  <button id="voltar-topo" aria-label="Voltar ao topo">↑</button>
+  <footer>
+    <p>&copy; 2025 Puggy. Todos os direitos reservados.</p>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

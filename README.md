@@ -1,42 +1,51 @@
-# Landing Page da Equipe X
+# Portfólio | Equipe Puggy
 
 Landing page responsiva para apresentar a equipe, projetos e habilidades.
 
-## Estrutura
-- Hero (nome da equipe, slogan)
-- Sobre a equipe (nomes, fotos, posições)
-- Skills/Stacks (tecnologias)
-- Projetos (cards)
-- Contato (formulário e redes)
+## 📋 Estrutura
+- **Hero:** nome da equipe, slogan
+- **Sobre a equipe:** nomes, fotos, posições
+- **Skills/Stacks:** tecnologias dominadas
+- **Projetos:** cards com título, descrição e links
+- **Contato:** formulário e redes profissionais
 
-## Tecnologias
+## 🚀 Tecnologias Utilizadas
 - HTML5 semântico
 - CSS3 (mobile-first, BEM)
 - JavaScript (interações nativas)
 
-## Funcionalidades JS
-- Menu hambúrguer
-- Validação do formulário
+## ✨ Funcionalidades JS
+- Menu hambúrguer responsivo
+- Validação do formulário de contato
 - Scroll suave e destaque do menu
-- Voltar ao topo animado
+- Botão “voltar ao topo” animado
 
-## Como rodar
-Abra o `index.html` em seu navegador ou publique no GitHub Pages.
+## 📦 Como rodar localmente
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Pedro-Figueiredoo/portifolio-avaliacao.git
+   ```
+2. Abra o arquivo `index.html` em seu navegador.
 
-## Otimização & SEO
+## 🌐 Publicação no GitHub Pages
+1. Faça o push para a branch `main`.
+2. No GitHub, acesse Settings > Pages e selecione a branch `main`.
+3. O site estará disponível em: [https://Pedro-Figueiredoo.github.io/portifolio-avaliacao/](https://Pedro-Figueiredoo.github.io/portifolio-avaliacao/)
+
+## 🏆 Otimização & SEO
 - Imagens otimizadas
 - Meta tags e favicon
 - Acessibilidade básica
 
-## Colaboração
+## 🤝 Colaboração
 - Repositório público
 - Commits de todos os integrantes
 
-## Link do GitHub Pages
-[Seu link aqui]
+## 👥 Autores
+- Pedro Arthur
+- Maria Silva
+- João Souza
 
-## Autores
-- Nome 1
-- Nome 2
-- Nome 3
-# portifolio-avaliacao
+---
+
+Projeto desenvolvido para avaliação de portfólio.
