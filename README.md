@@ -43,8 +43,6 @@ Landing page responsiva para apresentar a equipe, projetos e habilidades.
 
 ## 👥 Autores
 - Pedro Arthur
-- Maria Silva
-- João Souza
 
 ---
 
